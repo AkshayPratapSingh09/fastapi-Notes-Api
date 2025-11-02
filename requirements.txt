@@ -4,6 +4,7 @@ sqlalchemy
 psycopg2
 pyjwt
 pydantic
+pydantic[email]
 pydantic-settings
 alembic
 httpx
