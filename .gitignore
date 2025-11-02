@@ -1,0 +1,82 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pytype/
+.pyright/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- FastAPI / Uvicorn ---
+uvicorn.*.log
+
+# --- Alembic ---
+alembic/*.pyc
+# Keep migrations; ignore caches and pyc only
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.env
+secrets/*.json
+secrets/*.yaml
+
+# --- Databases ---
+*.sqlite
+*.sqlite3
+instance/
+data/
+tmp/
+
+# --- Postman local artifacts ---
+.postman/
+newman/
+
+# --- Docker (if added later) ---
+docker/*.log
+docker-compose.override.yml
+
+# --- Windows / PowerShell artifacts ---
+*.ps1xml
