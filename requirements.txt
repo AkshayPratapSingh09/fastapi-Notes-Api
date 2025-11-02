@@ -1,8 +1,7 @@
 fastapi
-uvicorn[standard]
-sqlalchemy>=2.0
-psycopg[binary]
-passlib[bcrypt]
+uvicorn
+sqlalchemy
+psycopg2
 pyjwt
 pydantic
 pydantic-settings
@@ -11,3 +10,5 @@ httpx
 pytest
 pytest-asyncio
 python-multipart
+passlib==1.7.4 
+bcrypt==4.1.2 
