@@ -1,4 +1,4 @@
-# 🗒️ Notes API (FastAPI + PostgreSQL + Alembic)
+# 🗒️ Notes API 
 
 A production‑ready **note‑taking backend with version history**, built with FastAPI, SQLAlchemy ORM, Alembic migrations, and JWT authentication.
 
